@@ -1,0 +1,15 @@
+<%{ './base.html' }%>
+<%{ content %>
+    <p>Fill in the form to setup this app.</p>
+    <form action="initialize">
+        <p><label for="clientId">Client Id</label>
+            <input type="text" name="clientId" value="<%- clientId %>" autofocus></p>
+        <p><label for="clientSecret">Client Secret</label>
+            <input type="text" name="clientSecret" value="<%- clientSecret %>"></p>
+        <p><label for="developerToken">Developer Token</label>
+            <input type="text" name="developerToken" value="<%- developerToken %>"></P>
+        <p><label for="clientCustomerId">Client Customer Id</label>
+            <input type="text" name="clientCustomerId" value="<%- clientCustomerId %>"></p>
+        <p><input type="submit" value="Update configuration"</input></p>
+    </form>
+<%} %>

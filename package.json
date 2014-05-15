@@ -1,0 +1,16 @@
+{
+  "name": "awstat",
+  "description": "Retrieving Google AdWords reports in a webbrowser using AWQL",
+  "version": "0.0.1",
+  "bin": {
+    "awstat": "./app.js"
+  },
+  "dependencies": {
+    "router": "~0.6.2",
+    "pejs": "~0.6.5",
+    "adwords-auth": "0.0.7",
+    "osenv": "0.0.3",
+    "dotjson": "~0.1.3",
+    "open": "0.0.5"
+  }
+}
