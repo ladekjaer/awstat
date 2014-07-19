@@ -1,7 +1,7 @@
 {
   "name": "awstat",
   "description": "Retrieving Google AdWords reports in a webbrowser using AWQL",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "bin": {
     "awstat": "./app.js"
   },
