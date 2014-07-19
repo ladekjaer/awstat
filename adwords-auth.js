@@ -15,7 +15,7 @@ var options = {
 
 module.exports.getTokens = function(clientId, clientSecret, redirectUri, callback) {
     var time = new Date().getTime();
-    var authRequestUrl = 'https://accounts.google.com/o/oauth2/auth';
+    var authRequestUrl = 'https://www.googleapis.com/auth/adwords';
     authRequestUrl += '?scope=' + encodeURIComponent('https://adwords.google.com/api/adwords');
     authRequestUrl += '&response_type=code';
     authRequestUrl += '&access_type=offline';
